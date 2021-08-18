@@ -1,0 +1,72 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"18 C:\Users\Yatte Miru\MPLABXProjects\demo.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+"352 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1602
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"3387
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"4181
+[v _RD0 RD0 `VEb  1 e 0 @64 ]
+"4184
+[v _RD1 RD1 `VEb  1 e 0 @65 ]
+"4187
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"4190
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"4193
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"4196
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"4199
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"4202
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"18 C:\Users\Yatte Miru\MPLABXProjects\demo.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+{
+"24
+[v main@temp temp `ui  1 a 2 24 ]
+"22
+[v main@s6 s6 `ui  1 a 2 22 ]
+[v main@s5 s5 `ui  1 a 2 20 ]
+[v main@s4 s4 `ui  1 a 2 18 ]
+[v main@s3 s3 `ui  1 a 2 16 ]
+[v main@s2 s2 `ui  1 a 2 14 ]
+[v main@s1 s1 `ui  1 a 2 12 ]
+"23
+[v main@l6 l6 `ui  1 a 2 10 ]
+[v main@l5 l5 `ui  1 a 2 8 ]
+[v main@l4 l4 `ui  1 a 2 6 ]
+[v main@l3 l3 `ui  1 a 2 4 ]
+[v main@l2 l2 `ui  1 a 2 2 ]
+[v main@l1 l1 `ui  1 a 2 0 ]
+"61
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
